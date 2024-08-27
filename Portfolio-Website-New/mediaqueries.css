@@ -1,0 +1,255 @@
+/* if screen size is less than 1200px including 1200px
+ then don't show nav bar 
+instead show hamburger icon */
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+      display: none;
+    }
+    #hamburger-nav{
+      display: flex;
+    }
+  }
+  
+  @media screen and (max-width: 480px){
+    
+    #profile .section_pic-container img{
+      display: inline-block;
+      justify-content: center;
+      width: 10rem;
+      height:10rem;
+      align-items: center;
+      align-items: center;
+      margin-top: -2rem;
+      margin-left: 60px;
+    }
+    .section-text{
+      margin-left: 40px;
+    }
+    .section_text_p1{
+      font-size: 16px;
+      text-align: center;
+     align-items: center;
+     
+    }
+    .title-4{
+      font-size: 2rem;
+    }
+    .bg-container {
+
+      width: 20rem;
+      height: 20rem;
+   }
+   .project_img {
+    border-radius: .5rem;
+    width: 10rem;
+    height: 10rem;
+ }
+ .project-title{
+  font-size: 18px;
+ }
+ .project-btn1,
+.project-btn2 {
+   font-size: 0.5rem;
+   cursor: pointer;
+   width: 4rem;
+   height: 3rem;
+   padding: .5rem;
+   border: .125rem solid black;
+   border-radius: 0.7rem;
+   font-weight: bold;
+   margin: 0 .5rem; /* Add margin between buttons */
+}
+    #profile{
+      display: flex;
+      flex-direction: column;
+      min-height: 40rem;
+      width: 100%;
+      background-color: #FCE09B;
+
+    }
+    #hamburger-nav{
+      height: 4rem;
+    }
+    /* #desktop-nav .logo{
+      margin-left: 1.5px;
+    } */
+    #profile .section-text{
+      margin-top: -10.5rem;
+    }
+    #hamburger-nav{
+      float: left;
+      
+    }
+    #hamburger-nav .logo, #hamburger-nav .logo span{
+      margin-left: 0px;
+      left: 1rem;
+      font-size: 1.5rem;
+    }
+    #desktop-nav{
+      margin-left: 0rem;
+    }
+  
+    .section-text{
+      text-align: center;
+    }
+    .section-text .title{
+      font-size: 1rem;
+    }
+    .section-container{
+      display: flex;
+      flex-direction: column;
+      margin-left: 30px;
+    }
+    .section_pic_container{
+      width: 40px;
+      width: 40px;
+      align-items: center;
+      margin-left: 40px;
+      margin-top: -30px;
+    }
+    .btn-container .btn-color-1{
+      background-color: #021526;
+      color: #FCE09B;
+    }
+    .btn-container .btn-color-1:hover{
+      background-color: #EB5B00;
+    }
+    .btn-container .btn-color-2{
+      background-color: #021526;
+      color: #FCE09B;
+    }
+    .btn-container .btn-color-2:hover{
+      background-color: #EB5B00;
+    }
+  
+    #about{
+      height: 68rem;
+    }
+    .about-pic{
+      width: 15rem;
+      height: 15rem;
+      float: center;
+      margin: auto;
+    }
+    .details-title{
+      font-size: 1.1rem;
+      justify-content: center;
+      align-items: center;
+      margin-right: 50px;
+      display: inline-block;
+      margin-top: 15px;
+      margin-right: 15px ;
+    }
+    #about .title{
+      font-size: 2rem;
+    }
+    .social-container{
+      margin-bottom: 0.5rem;
+    }
+    .details-title .text{
+      font-size: 8px;
+      margin-left: 5px;
+    }
+    .about-details-container{
+      margin-left: 5px;
+      width: 300px;
+      height: 400px;
+    }
+    .read-more{
+      font-size: 15px;
+      width: 30px;
+      height: 20px;
+    }
+    .section_pic-container{
+      height: 13rem;
+      width: 15rem;
+      justify-content: center;
+      padding: 10px;
+    }
+    .heading{
+      font-size: 25px;
+    }
+    .title-exp {
+      font-size: 1.5rem; /* Adjust title size */
+  }
+  .education-column{
+    margin-top: -120px;
+  }
+  .education-content .content .year{
+    font-size: 1.1rem;
+    color: balck;
+    padding-bottom: 0.5rem;
+ }
+ .education-content .content h3{
+  font-size: 0.6rem;
+}
+.education-content .content p{
+  font-size: 0.8rem;
+  padding-top: 0.5rem;
+}
+.again{
+  margin-top: 20px;
+}
+
+  .section__text__p1 {
+      font-size: 0.8rem; /* Adjust text size */
+  }
+
+  article {
+      flex-direction: column; /* Stack icon and text vertically */
+      align-items: flex-start; /* Align items to the start */
+      width: calc(50% - 2rem); /* Full width for articles */
+      align-items: center;
+   justify-content: center;
+  }
+
+  article img {
+      margin-bottom: 0.5rem; /* Space below the icon */
+      align-items: center;
+   justify-content: center;
+  }
+  article h3 {
+    font-size: 1.1rem; /* Set heading size */
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ article p {
+    font-size: 1.2rem; /* Set paragraph size */
+    align-items: center;
+    justify-content: center;
+ }
+ form {
+  max-width: 700px;
+  
+  margin: 0 auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.contact-img img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border: 2px solid #9900EF;
+  border-radius: 30px;
+}
+.contact-form {
+  margin-top: 30px;
+  margin-right: 35px;
+  max-width: 40rem;
+  text-align: center;
+  margin-left: 20px; /* Adjust margin for better alignment */
+  flex: 1; /* Allow the form to grow and take available space */
+}
+.text-msg{
+  height: 50px;
+}
+.input-field input,
+.textarea-field textarea {
+  font-size: 12px;
+  min-width: 150px;
+}
+  }
